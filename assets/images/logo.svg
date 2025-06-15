@@ -3,17 +3,18 @@
   <!-- Фон -->
   <rect x="0" y="0" width="200" height="200" rx="20" fill="#2c3e50" />
   
-  <!-- Геометрические фигуры -->
-  <circle cx="60" cy="80" r="25" fill="#3498db" />
-  <rect x="110" y="55" width="50" height="50" fill="#e74c3c" />
-  <line x1="40" y1="140" x2="160" y2="140" stroke="#f1c40f" stroke-width="8" stroke-linecap="round" />
-  
-  <!-- Текст -->
-  <text x="100" y="180" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">ShapeDraw</text>
-  
-  <!-- Кисть/карандаш -->
-  <g transform="translate(165, 35) rotate(45)">
-    <rect x="-5" y="-25" width="10" height="35" fill="#ecf0f1" />
-    <polygon points="0,-30 -5,-25 5,-25" fill="#e67e22" />
+  <!-- Буквы SD -->
+  <g>
+    <!-- S -->
+    <path d="M70,55 C93,55 93,75 93,80 C93,95 47,90 47,115 C47,130 57,145 80,145 C90,145 96,142 100,140" 
+          stroke="#3498db" stroke-width="14" stroke-linecap="round" fill="none" />
+    
+    <!-- D -->
+    <path d="M110,50 L110,150" stroke="#e74c3c" stroke-width="14" stroke-linecap="round" />
+    <path d="M110,50 C160,50 160,100 160,100 C160,100 160,150 110,150" 
+          stroke="#e74c3c" stroke-width="14" stroke-linecap="round" fill="none" />
   </g>
+  
+  <!-- Небольшой элемент-украшение -->
+  <circle cx="30" cy="30" r="10" fill="#f1c40f" />
 </svg> 
