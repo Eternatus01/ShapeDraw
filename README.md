@@ -45,17 +45,18 @@
 
 <div align="center">
   
+  
   ### Интерфейс редактора
   
-    ./assets/images/interface.png
+  ![Интерфейс редактора](./assets/images/interface.png)
   
   ### Работа со слоями
   
-     ./assets/images/layers.png
+  ![Работа со слоями](./assets/images/layers.png)
   
   ### Настройка свойств объектов
   
-     ./assets/images/properties.png
+  ![Настройка свойств](./assets/images/properties.png)
   
 </div>
 
