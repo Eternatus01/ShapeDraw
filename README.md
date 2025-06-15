@@ -47,15 +47,15 @@
   
   ### Интерфейс редактора
   
-     ![Интерфейс редактора](./assets/images/interface.png)
+    ./assets/images/interface.png
   
   ### Работа со слоями
   
-     ![Работа со слоями](./assets/images/layers.png)
+     ./assets/images/layers.png
   
   ### Настройка свойств объектов
   
-     ![Настройка свойств](./assets/images/properties.png)
+     ./assets/images/properties.png
   
 </div>
 
