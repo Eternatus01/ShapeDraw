@@ -1,16 +1,19 @@
 {
-  "name": "canvas",
+  "name": "shapedraw",
+  "homepage": "https://eternatus01.github.io/ShapeDraw",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "postbuild": "echo '*.js application/javascript' > dist/.mime && echo '*.css text/css' >> dist/.mime && cp .nojekyll dist/ || touch dist/.nojekyll",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
+    "gh-pages": "^6.1.1",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
   },

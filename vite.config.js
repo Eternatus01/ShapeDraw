@@ -1,38 +1,12 @@
 import { defineConfig } from "vite";
-import { fileURLToPath } from "url";
-import { dirname, resolve } from "path";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+import { resolve } from "path";
 
 export default defineConfig({
-  base: "./",
+  base: "/ShapeDraw/",
   build: {
     outDir: "dist",
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, "index.html"),
-      },
-    },
+    emptyOutDir: true,
+    sourcemap: true,
   },
-  resolve: {
-    alias: {
-      "@": resolve(__dirname, "src"),
-    },
-  },
-  define: {
-    global: "globalThis",
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      define: {
-        global: "globalThis",
-      },
-    },
-  },
-  server: {
-    fs: {
-      strict: false,
-    },
-  },
+  plugins: [],
 });
