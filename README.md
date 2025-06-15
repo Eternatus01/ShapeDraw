@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![ShapeDraw Logo](https://via.placeholder.com/200x200?text=ShapeDraw)
+  <img src="./assets/images/logo.svg" alt="ShapeDraw Logo" width="200" height="200">
   
   **Современный векторный редактор для создания и редактирования графических примитивов**
   
@@ -47,15 +47,15 @@
   
   ### Интерфейс редактора
   
-  ![Интерфейс редактора](https://via.placeholder.com/800x450?text=Интерфейс+редактора)
+     ![Интерфейс редактора](./assets/images/interface.png)
   
   ### Работа со слоями
   
-  ![Работа со слоями](https://via.placeholder.com/800x450?text=Работа+со+слоями)
+     ![Работа со слоями](./assets/images/layers.png)
   
   ### Настройка свойств объектов
   
-  ![Настройка свойств](https://via.placeholder.com/800x450?text=Настройка+свойств)
+     ![Настройка свойств](./assets/images/properties.png)
   
 </div>
 

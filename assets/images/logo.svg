@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фон -->
+  <rect x="0" y="0" width="200" height="200" rx="20" fill="#2c3e50" />
+  
+  <!-- Геометрические фигуры -->
+  <circle cx="60" cy="80" r="25" fill="#3498db" />
+  <rect x="110" y="55" width="50" height="50" fill="#e74c3c" />
+  <line x1="40" y1="140" x2="160" y2="140" stroke="#f1c40f" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Текст -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="white">ShapeDraw</text>
+  
+  <!-- Кисть/карандаш -->
+  <g transform="translate(165, 35) rotate(45)">
+    <rect x="-5" y="-25" width="10" height="35" fill="#ecf0f1" />
+    <polygon points="0,-30 -5,-25 5,-25" fill="#e67e22" />
+  </g>
+</svg> 
