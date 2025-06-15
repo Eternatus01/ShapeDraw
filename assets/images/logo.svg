@@ -1,20 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Фон -->
-  <rect x="0" y="0" width="200" height="200" rx="20" fill="#2c3e50" />
-  
-  <!-- Буквы SD -->
-  <g>
-    <!-- S -->
-    <path d="M70,55 C93,55 93,75 93,80 C93,95 47,90 47,115 C47,130 57,145 80,145 C90,145 96,142 100,140" 
-          stroke="#3498db" stroke-width="14" stroke-linecap="round" fill="none" />
-    
-    <!-- D -->
-    <path d="M110,50 L110,150" stroke="#e74c3c" stroke-width="14" stroke-linecap="round" />
-    <path d="M110,50 C160,50 160,100 160,100 C160,100 160,150 110,150" 
-          stroke="#e74c3c" stroke-width="14" stroke-linecap="round" fill="none" />
-  </g>
-  
-  <!-- Небольшой элемент-украшение -->
-  <circle cx="30" cy="30" r="10" fill="#f1c40f" />
-</svg> 
+  <!-- Dark background with rounded corners -->
+  <rect width="200" height="200" rx="20" ry="20" fill="#1a1a1a"/>
+  <!-- Bigger white SD letters -->
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="bold" font-size="110">SD</text>
+</svg>
