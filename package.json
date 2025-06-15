@@ -1,6 +1,5 @@
 {
   "name": "shapedraw",
-  "homepage": "https://eternatus01.github.io/ShapeDraw",
   "private": true,
   "version": "0.1.0",
   "type": "module",
