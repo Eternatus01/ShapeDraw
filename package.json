@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "postbuild": "echo '*.js application/javascript' > dist/.mime && echo '*.css text/css' >> dist/.mime && cp .nojekyll dist/ || touch dist/.nojekyll",
     "preview": "vite preview"
   },
   "devDependencies": {

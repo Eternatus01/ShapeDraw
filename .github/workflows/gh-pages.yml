@@ -29,6 +29,14 @@ jobs:
       - name: Build
         run: npm run build
         
+      - name: Copy configuration files
+        run: |
+          cp .nojekyll dist/ || true
+          cp .mime dist/ || true
+          cp _headers dist/ || true
+          cp .htaccess dist/ || true
+          touch dist/.nojekyll
+          
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
