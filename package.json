@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
     "typescript": "~5.8.3",
     "vite": "^6.3.5"
   },
@@ -16,5 +17,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
 }
